@@ -1,0 +1,7 @@
+{
+  "name": "ISobolkov_mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
