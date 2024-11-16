@@ -12,6 +12,9 @@
             <ion-input label="Ввод данных"  [(ngModel)]="Name"></ion-input>
             <ion-button (click) = "changeBUTTON()">Добавить суффикс</ion-button>
           </ion-item>
+          <ion-item *ngFor="let book of books">
+            {{books}}
+          </ion-item>
         </ion-list>
       </ion-content>
     </div>
@@ -23,8 +26,11 @@
           <ion-title>Radio</ion-title>
         </ion-toolbar>
       </ion-header>
-      <ion-content>
-        <div class="example-content">Radio content</div>
+      <ion-content [fullscreen]="true">
+        <ion-item *ngFor="let book of books">
+          {{book}}
+        </ion-item>
+        <div class="example-content"></div>
       </ion-content>
     </div>
   </ion-tab>

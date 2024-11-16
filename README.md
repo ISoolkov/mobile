@@ -18,5 +18,7 @@ ionic serve
 ##  Редактирование синей кнопки на главном экране            
 ```
  Заходим в tabs.page.html (13 строка)
-<ion-button (click) = "changeBUTTON()">Добавить суффикс</ion-button>
+</ion-item>
+    <ion-button (click) = "changeBUTTON()">Добавить суффикс</ion-button>
+</ion-item>
 ```
