@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class TabsPage {
   
-Name: string = "Спать хочу"
+Name: string = ""
 changeBUTTON(){
   this.Name += "!"
 }
